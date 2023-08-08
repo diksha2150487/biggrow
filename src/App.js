@@ -17,6 +17,21 @@ import img15 from "./images/SVG (13).png";
 import img16 from "./images/SVG (14).png";
 import img17 from "./images/SVG (15).png";
 import img18 from "./images/Figure → Link → TRAVEL-HOSPITALITY.jpg.png";
+import img19 from "./images/Figure → Link → LOGISTIC.jpg.png";
+import img20 from "./images/Figure → Link → accouting.jpg.png";
+import img21 from "./images/Figure → Link → CONSTRUCTION.jpg.png";
+import img22 from "./images/Figure → Link → BANKING-FINANCE.jpg.png";
+import img23 from "./images/Figure → Link → MEDIA-ADVT.jpg.png";
+import img24 from "./images/Figure → Link → HEALTH-CARE.jpg.png";
+import img25 from "./images/Figure → Link → ECOMMERCE.jpg.png";
+import img26 from "./images/Figure → Link → FOOD.jpg.png";
+import img27 from "./images/Picture → lets-connect.jpg.webp.png";
+import img28 from "./images/div.service-list-num.png";
+import img29 from "./images/div.service-list-num (5).png";
+import img30 from "./images/div.service-list-num (2).png";
+import img31 from "./images/div.service-list-num (3).png";
+import img32 from "./images/div.service-list-num (4).png";
+import img33 from "./images/div.service-list-num (1).png";
 
 function App() {
   return (
@@ -40,7 +55,8 @@ function App() {
       <div className="our-side">
         <div className="host-left">
           <p className="hills">
-            Grow Big with BigCommerce Development Services.
+            Grow Big with <span className="koyal">BigCommerce</span> Development
+            Services.
           </p>
           <p className="mangeto">
             Ever heard of the phrase “dream big”? What if we tell you that we
@@ -64,7 +80,10 @@ function App() {
       </div>
       {/* ************************************************************* */}
       <div className="teach-team">
-        <p className="glory">Why BigCommerce is the best for your Business</p>
+        <p className="glory">
+          Why <span className="koyal">BigCommerce </span>is the best for your
+          Business
+        </p>
         <p className="strick">
           Whether you are a startup, or an established enterprise, we can use
           the BigCommerce platform to build a cutting-edge, differentiated
@@ -212,18 +231,85 @@ function App() {
         <button className="naps">TALK TO OUR DEVELOPER TODAY</button>
       </div>
       {/* *************************************************************************** */}
-      {/* <div className="shape-my-art">
-        <p className="yvle">BigCommerce Development Services</p>
-        <p className="offer">We Offer</p>
-        <div className="cord-card">
-          <div className="pops-one">
-            <img src={img16} className="cloud-fly" />
-            <h4>APIs</h4>
-            <h5>
-              Huge breadth (over 90%) of powerful APIs makes BigCommerce an
-              extremely flexible ecommerce platform which opens up multiple
-              integration possibilities
-            </h5>
+      {/* <div className="dogger_cards">
+        <p>BigCommerce Development Services We Offer</p>
+        <div className="aligned_card">
+          <div className="card_withicon">
+            <img src={img28} alt="img" />
+            <p className="cardHeader">Design & Develop Your Store with us</p>
+            <p className="cardContent">
+              Bigcommerce Development has a great collection of pre-loaded
+              themes. It is essential to select the best Bigcommerce Development
+              Company as they will reflect your brand identity. Our team will
+              work on creating and customizing the website to stand out in the
+              crowd.
+            </p>
+          </div>
+          <div className="card_withicon">
+            <img src={img29} alt="img" />
+            <p className="cardHeader">
+              Integrate & Customize Your BigCommerce Theme!
+            </p>
+            <p className="cardContent">
+              Your design and look will make the first impression on your
+              customers. With the help of the Bigcommerce Development agency,
+              your e-commerce store will breathe a new life in the industry,
+              quickly leveraging the customers.
+            </p>
+          </div>
+          <div className="card_withicon">
+            <img src={img30} alt="img" />
+            <p className="cardHeader">Make Your Platform SEO-Friendly!</p>
+            <p className="cardContent">
+              Stepping into the online world, you know how important it is to
+              handle SEO to reach the search engines’ top rankings.Fortunately,
+              you have us, the Bigcommerce E-commerce development experts, to
+              take your stress away. We are not limited to using the best SEO
+              tools but will analyze the growth regularly and maintain your
+              website’s top ranks.
+            </p>
+          </div>
+          <div className="card_withicon">
+            <img src={img31} alt="img" />
+            <p className="cardHeader">
+              Are You Finding Difficulty in API Integration?
+            </p>
+            <p className="cardContent">
+              There should be coordination between data, devices, and
+              applications to run a successful e- commerce store. We will handle
+              the Bigcommerce web development by providing third-party API
+              integration and managing the module. Our team will keep your
+              requirements and expectations in mind all the time to make the
+              website accordingly.
+            </p>
+          </div>
+          <div className="card_withicon">
+            <img src={img32} alt="img" />
+            <p className="cardHeader">
+              Are You Finding Difficulty in API Integration?
+            </p>
+            <p className="cardContent">
+              There should be coordination between data, devices, and
+              applications to run a successful e- commerce store. We will handle
+              the Bigcommerce web development by providing third-party API
+              integration and managing the module. Our team will keep your
+              requirements and expectations in mind all the time to make the
+              website accordingly.
+            </p>
+          </div>
+          <div className="card_withicon">
+            <img src={img33} alt="img" />
+            <p className="cardHeader">
+              Are You Finding Difficulty in API Integration?
+            </p>
+            <p className="cardContent">
+              There should be coordination between data, devices, and
+              applications to run a successful e- commerce store. We will handle
+              the Bigcommerce web development by providing third-party API
+              integration and managing the module. Our team will keep your
+              requirements and expectations in mind all the time to make the
+              website accordingly.
+            </p>
           </div>
         </div>
       </div> */}
@@ -239,9 +325,43 @@ function App() {
         <div className="images-main-box">
           <div className="canny-box">
             <img src={img18} className="tigers"></img>
-
             <img src={img18} className="tigers"></img>
           </div>
+          <div className="canny-three-box">
+            <img src={img19} className="accountion"></img>
+            <img src={img20} className="accountion"></img>
+            <img src={img21} className="accountion"></img>
+          </div>
+          <div className="joly-box">
+            <img src={img22} className="tigers"></img>
+            <img src={img23} className="tigers"></img>
+          </div>
+          <div className="canny-three-box">
+            <img src={img24} className="accountion"></img>
+            <img src={img25} className="accountion"></img>
+            <img src={img26} className="accountion"></img>
+          </div>
+        </div>
+      </div>
+      {/* ***************************************************************************** */}
+      <div className="box-protifilo">
+        <p className="recoil">
+          Our <span className="koyal">BigCommerce </span>Web Development
+          <span className="koyal"> Portfolio</span>
+        </p>
+      </div>
+      {/* ***************************************************************************** */}
+      <div className="boeing-men">
+        <div className="Eurpoe-left">
+          <img src={img27} className="two-women"></img>
+        </div>
+        <div className="Eurpoe-right">
+          <div className="topice">
+            <p className="fortly">Run your </p>
+            <p className="fortly">business efficiently</p>
+            <p className="fortly">with Magento</p>
+          </div>
+          <p className="apprel">Let’s Connect</p>
         </div>
       </div>
     </div>
