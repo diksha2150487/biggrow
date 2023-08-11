@@ -3,25 +3,24 @@
   margin: 0;
   padding: 0;
 }
-.paper1 {
+.koflty {
   background-color: #085881;
   display: flex;
   width: 100%;
   justify-content: space-between;
   padding-bottom: 1rem;
 }
-.leftpaper1 {
-  padding: 5rem 0rem 0rem 6rem;
-  width: 55%;
+.koflty-left-resume {
+  padding: 3rem 0rem 0rem 6rem;
 }
-.rightpaper1 {
-  width: 45%;
+.koflty-right-resume {
+  padding: 1rem 7rem 0rem 0rem;
 }
 .Ambitious {
   font-size: 30px;
   color: #ffffff;
   font-family: "Roboto", sans-serif;
-  max-width: 47%;
+  max-width: 35%;
   font-weight: 600;
   line-height: 44px;
   text-align: left;
@@ -34,14 +33,14 @@
   line-height: 26px;
   font-family: "Poppins", sans-serif;
   font-weight: 100;
-  max-width: 62%;
+  max-width: 45%;
   padding-top: 15px;
 }
 .three-circle {
-  width: 320px;
-  height: 400px;
-  margin-top: 5%;
-  margin-left: 30%;
+  max-width: 300px;
+  /* height: 400px; */
+  /* margin-top: 5%; */
+  /* margin-left: 30%; */
 }
 .team {
   margin-top: 30px;
@@ -57,20 +56,20 @@
 .our-side {
   /* background-color: aqua; */
   display: flex;
+  margin-bottom: 6rem;
 }
 .host-left {
   padding: 5rem 0rem 0rem 6rem;
-  width: 55%;
+  /* width: 55%; */
   /* background-color: aqua; */
 }
 .host-right {
-  width: 45%;
+  /* width: 45%; */
   /* background-color: bisque; */
-  padding: 3rem;
+  padding: 3rem 5rem 0rem 0rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 6rem 0rem;
 }
 .hills {
   font-size: 32px;
@@ -88,7 +87,7 @@
   line-height: 28px;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
-  max-width: 80%;
+  max-width: 72%;
   padding-top: 15px;
 }
 .console {
@@ -103,8 +102,7 @@
   color: white;
 }
 .network {
-  max-width: 500px;
-  height: 430px;
+  max-width: 540px;
 }
 .koyal {
   color: #1265ff;
@@ -127,12 +125,11 @@
   padding-top: 3%;
   color: #2c3238;
 }
-
 .strick {
   font-family: "Poppins", sans-serif;
   font-size: 17px;
   font-weight: 200;
-  text-align: start;
+  text-align: center;
   line-height: 26px;
   letter-spacing: 0em;
   max-width: 72%;
@@ -282,6 +279,7 @@
   margin-right: auto;
   color: #33475b;
   line-height: 40px;
+  letter-spacing: 0.22px;
 }
 .card_withicon {
   max-width: 20rem;

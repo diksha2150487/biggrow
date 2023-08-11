@@ -36,8 +36,8 @@ import img33 from "./images/div.service-list-num (1).png";
 function App() {
   return (
     <div>
-      <div className="paper1">
-        <div className="leftpaper1">
+      <div className="koflty">
+        <div className="koflty-left-resume">
           <p className="Ambitious">BigCommerce Development Service</p>
           <p className="brand">
             Eye catching and inviting bigcommerce storefronts that wow your
@@ -47,7 +47,7 @@ function App() {
           </p>
           <button className="team">LET’S TALK</button>
         </div>
-        <div className="rightpaper1">
+        <div className="koflty-right-resume">
           <img src={img1} alt="img" className="three-circle" />
         </div>
       </div>
