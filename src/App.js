@@ -94,7 +94,7 @@ function App() {
         <div className="card-various">
           <div className="dogers-first">
             <div className="first1">
-              <img src={img3} className="watch-time" />
+              <img src={img3} className="watch-time" alt="logo" />
               <h4>Cost Efficient</h4>
               <h5>
                 Cloud-based solution ensures only a quarter of the cost is
@@ -102,7 +102,7 @@ function App() {
               </h5>
             </div>
             <div className="first1">
-              <img src={img4} className="watch-time" />
+              <img src={img4} className="watch-time" alt="logo" />
               <h4>Unparalleled Uptime</h4>
               <p className="global-store">
                 Best up-time in the industry at 99.99%, even leading up to 100%
@@ -110,7 +110,7 @@ function App() {
               </p>
             </div>
             <div className="first1">
-              <img src={img5} className="watch-time" />
+              <img src={img5} className="watch-time" alt="logo" />
               <h4>Rapid Response Time</h4>
               <p className="global-store">
                 Lightning fast connection time of under 10ms leading to ultra
@@ -120,7 +120,7 @@ function App() {
           </div>
           <div className="dogers-second">
             <div className="first1">
-              <img src={img6} className="watch-time" />
+              <img src={img6} className="watch-time" alt="logo" />
               <h4>Reduced Deployment Time</h4>
               <h5>
                 Cloud-based solution ensures only half the time is spent in
@@ -128,7 +128,7 @@ function App() {
               </h5>
             </div>
             <div className="first1">
-              <img src={img7} className="watch-time" />
+              <img src={img7} className="watch-time" alt="logo" />
 
               <h4>Exceptional Shopping Experience</h4>
               <h5>
@@ -137,7 +137,7 @@ function App() {
               </h5>
             </div>
             <div className="first1">
-              <img src={img8} className="watch-time" />
+              <img src={img8} className="watch-time" alt="logo" />
 
               <h4>Optimized for Mobile</h4>
               <h5>
@@ -147,14 +147,14 @@ function App() {
           </div>
           <div className="dogers-third">
             <div className="first1">
-              <img src={img9} className="watch-time" />
+              <img src={img9} className="watch-time" alt="logo" />
               <h4>Completely Customizable</h4>
               <h5>
                 BigCommerce ERP integration Apps for third- party softwares
               </h5>
             </div>
             <div className="first1">
-              <img src={img10} className="watch-time" />
+              <img src={img10} className="watch-time" alt="logo" />
 
               <h4>Highly Secure</h4>
               <h5>
@@ -162,7 +162,7 @@ function App() {
               </h5>
             </div>
             <div className="first1">
-              <img src={img11} className="watch-time" />
+              <img src={img11} className="watch-time" alt="logo" />
               <h4>Scalable</h4>
               <h5>
                 BigCommerce ERP integration Apps for third- party softwares
@@ -171,7 +171,7 @@ function App() {
           </div>
           <div className="dogers-fourth">
             <div className="first1">
-              <img src={img12} className="watch-time" />
+              <img src={img12} className="watch-time" alt="logo" />
               <h4>Cross-Channel Integration</h4>
               <h5>
                 Integration with all the top marketplaces like Amazon, Ebay, and
@@ -180,7 +180,7 @@ function App() {
               </h5>
             </div>
             <div className="first1">
-              <img src={img13} className="watch-time" />
+              <img src={img13} className="watch-time" alt="logo" />
               <h4>Outstanding SEO Features</h4>
               <h5>
                 Out-of-the-box Meta Descriptions, robots.exe editing, image
@@ -189,7 +189,7 @@ function App() {
               </h5>
             </div>
             <div className="first1">
-              <img src={img14} className="watch-time" />
+              <img src={img14} className="watch-time" alt="logo" />
               <h4>POS Integration</h4>
               <h5>
                 Integration with all the top marketplaces like Amazon, Ebay, and
@@ -200,7 +200,7 @@ function App() {
           </div>
           <div className="dogers-five">
             <div className="first1">
-              <img src={img15} className="watch-time" />
+              <img src={img15} className="watch-time" alt="logo" />
               <h4>Extensive Integration Support</h4>
               <h5>
                 Easy integration with Payment Gateways, Accounting Solutions,
@@ -209,7 +209,7 @@ function App() {
               </h5>
             </div>
             <div className="first1">
-              <img src={img16} className="watch-time" />
+              <img src={img16} className="watch-time" alt="logo" />
               <h4>APIs</h4>
               <h5>
                 Huge breadth (over 90%) of powerful APIs makes BigCommerce an
@@ -218,7 +218,7 @@ function App() {
               </h5>
             </div>
             <div className="first1">
-              <img src={img17} className="watch-time" />
+              <img src={img17} className="watch-time" alt="logo" />
               <h4>Restore & Backup</h4>
               <h5>
                 Backup your ecommerce store data with two data centers and an
@@ -231,88 +231,88 @@ function App() {
         <button className="naps">TALK TO OUR DEVELOPER TODAY</button>
       </div>
       {/* *************************************************************************** */}
-      {/* <div className="dogger_cards">
+      <div className="dogger_cards">
         <p>BigCommerce Development Services We Offer</p>
         <div className="aligned_card">
-          <div className="card_withicon">
-            <img src={img28} alt="img" />
-            <p className="cardHeader">Design & Develop Your Store with us</p>
-            <p className="cardContent">
-              Bigcommerce Development has a great collection of pre-loaded
-              themes. It is essential to select the best Bigcommerce Development
-              Company as they will reflect your brand identity. Our team will
-              work on creating and customizing the website to stand out in the
-              crowd.
-            </p>
+          <div className="view-one-row">
+            <div className="card_withicon">
+              <img src={img28} alt="img" />
+              <p className="cardHeader">Design & Develop </p>
+              <p className="jolo">Your Store with us</p>
+              <p className="cardContent">
+                Bigcommerce Development has a great collection of pre-loaded
+                themes. It is essential to select the best Bigcommerce
+                Development Company as they will reflect your brand identity.
+                Our team will work on creating and customizing the website to
+                stand out in the crowd.
+              </p>
+            </div>
+            <div className="card_withicon">
+              <img src={img29} alt="img" />
+              <p className="cardHeader">Integrate & Customize Your </p>
+              <p className="jolo">BigCommerce Theme!</p>
+              <p className="cardContent">
+                Your design and look will make the first impression on your
+                customers. With the help of the Bigcommerce Development agency,
+                your e-commerce store will breathe a new life in the industry,
+                quickly leveraging the customers.
+              </p>
+            </div>
+            <div className="card_withicon">
+              <img src={img30} alt="img" />
+              <p className="cardHeader">Make Your Platform </p>
+              <p className="jolo">SEO-Friendly!</p>
+              <p className="cardContent">
+                Stepping into the online world, you know how important it is to
+                handle SEO to reach the search engines’ top
+                rankings.Fortunately, you have us, the Bigcommerce E-commerce
+                development experts, to take your stress away. We are not
+                limited to using the best SEO tools but will analyze the growth
+                regularly and maintain your website’s top ranks.
+              </p>
+            </div>
           </div>
-          <div className="card_withicon">
-            <img src={img29} alt="img" />
-            <p className="cardHeader">
-              Integrate & Customize Your BigCommerce Theme!
-            </p>
-            <p className="cardContent">
-              Your design and look will make the first impression on your
-              customers. With the help of the Bigcommerce Development agency,
-              your e-commerce store will breathe a new life in the industry,
-              quickly leveraging the customers.
-            </p>
-          </div>
-          <div className="card_withicon">
-            <img src={img30} alt="img" />
-            <p className="cardHeader">Make Your Platform SEO-Friendly!</p>
-            <p className="cardContent">
-              Stepping into the online world, you know how important it is to
-              handle SEO to reach the search engines’ top rankings.Fortunately,
-              you have us, the Bigcommerce E-commerce development experts, to
-              take your stress away. We are not limited to using the best SEO
-              tools but will analyze the growth regularly and maintain your
-              website’s top ranks.
-            </p>
-          </div>
-          <div className="card_withicon">
-            <img src={img31} alt="img" />
-            <p className="cardHeader">
-              Are You Finding Difficulty in API Integration?
-            </p>
-            <p className="cardContent">
-              There should be coordination between data, devices, and
-              applications to run a successful e- commerce store. We will handle
-              the Bigcommerce web development by providing third-party API
-              integration and managing the module. Our team will keep your
-              requirements and expectations in mind all the time to make the
-              website accordingly.
-            </p>
-          </div>
-          <div className="card_withicon">
-            <img src={img32} alt="img" />
-            <p className="cardHeader">
-              Are You Finding Difficulty in API Integration?
-            </p>
-            <p className="cardContent">
-              There should be coordination between data, devices, and
-              applications to run a successful e- commerce store. We will handle
-              the Bigcommerce web development by providing third-party API
-              integration and managing the module. Our team will keep your
-              requirements and expectations in mind all the time to make the
-              website accordingly.
-            </p>
-          </div>
-          <div className="card_withicon">
-            <img src={img33} alt="img" />
-            <p className="cardHeader">
-              Are You Finding Difficulty in API Integration?
-            </p>
-            <p className="cardContent">
-              There should be coordination between data, devices, and
-              applications to run a successful e- commerce store. We will handle
-              the Bigcommerce web development by providing third-party API
-              integration and managing the module. Our team will keep your
-              requirements and expectations in mind all the time to make the
-              website accordingly.
-            </p>
+          <div className="view-two-row">
+            <div className="card_withicon">
+              <img src={img31} alt="img" />
+              <p className="cardHeader">Get the Best Payment </p>
+              <p className="jolo">Gateways</p>
+              <p className="cardContent">
+                An online business needs to give your customers the ease of
+                completing the payment through multiple payment options. Our
+                experienced team in Bigcommerce development will take the
+                precautionary step to ensure your store has a seamless shipping
+                process.
+              </p>
+            </div>
+            <div className="card_withicon">
+              <img src={img32} alt="img" />
+              <p className="cardHeader">Are You Scared About </p>
+              <p className="jolo">Data Migration?</p>
+              <p className="cardContent">
+                Shifting to Bigcommerce is indeed a brilliant idea for us! It is
+                high time to move with the trends by making this significant
+                move. Just share with requirements, and we will take it from
+                there. Don’t worry about any data loss! We will make sure your
+                essential data is migrated securely to Bigcommerce.
+              </p>
+            </div>
+            <div className="card_withicon">
+              <img src={img33} alt="img" />
+              <p className="cardHeader">Are You Finding Difficulty in </p>
+              <p className="jolo">API Integration?</p>
+              <p className="cardContent">
+                There should be coordination between data, devices, and
+                applications to run a successful e- commerce store. We will
+                handle the Bigcommerce web development by providing third-party
+                API integration and managing the module. Our team will keep your
+                requirements and expectations in mind all the time to make the
+                website accordingly.
+              </p>
+            </div>
           </div>
         </div>
-      </div> */}
+      </div>
       {/* ************************************************************************************* */}
       <div className="Iot-shape">
         <p className="lofty">Industries We Have Served</p>
@@ -324,22 +324,52 @@ function App() {
         </p>
         <div className="images-main-box">
           <div className="canny-box">
-            <img src={img18} className="tigers"></img>
-            <img src={img18} className="tigers"></img>
+            <div className="fork">
+              <p className="ups">STARTUPS</p>
+              <img src={img18} className="tigers" alt="logo"></img>
+            </div>
+            <div className="fork">
+              <p className="ups">TRAVEL & HOSPITALITY</p>
+              <img src={img18} className="tigers" alt="logo"></img>
+            </div>
           </div>
           <div className="canny-three-box">
-            <img src={img19} className="accountion"></img>
-            <img src={img20} className="accountion"></img>
-            <img src={img21} className="accountion"></img>
+            <div className="blog">
+              <p className="dops">LOGISTIC</p>
+              <img src={img19} className="accountion" alt="logo"></img>
+            </div>
+            <div className="blog">
+              <p className="dops">ACCOUNTING</p>
+              <img src={img20} className="accountion" alt="logo"></img>
+            </div>
+            <div className="blog">
+              <p className="dops">CONSTRUCTION</p>
+              <img src={img21} className="accountion" alt="logo"></img>
+            </div>
           </div>
           <div className="joly-box">
-            <img src={img22} className="tigers"></img>
-            <img src={img23} className="tigers"></img>
+            <div className="fork">
+              <p className="ups">BANKING FINANCE</p>
+              <img src={img22} className="tigers" alt="logo"></img>
+            </div>
+            <div className="fork">
+              <div className="ups">MEDIA & ADVT</div>
+              <img src={img23} className="tigers" alt="logo"></img>
+            </div>
           </div>
           <div className="canny-three-box">
-            <img src={img24} className="accountion"></img>
-            <img src={img25} className="accountion"></img>
-            <img src={img26} className="accountion"></img>
+            <div className="blog">
+              <p className="dops">HEALTH CARE</p>
+              <img src={img24} className="accountion" alt="logo"></img>
+            </div>
+            <div className="blog">
+              <p className="dops">ECOMMERCE</p>
+              <img src={img25} className="accountion" alt="logo"></img>
+            </div>
+            <div className="blog">
+              <p className="dops">Food</p>
+              <img src={img26} className="accountion" alt="logo"></img>
+            </div>
           </div>
         </div>
       </div>
@@ -353,7 +383,7 @@ function App() {
       {/* ***************************************************************************** */}
       <div className="boeing-men">
         <div className="Eurpoe-left">
-          <img src={img27} className="two-women"></img>
+          <img src={img27} className="two-women" alt=""></img>
         </div>
         <div className="Eurpoe-right">
           <div className="topice">
